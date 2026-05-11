@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82059C04-F973-57B4-0D07-F7791A47114A" name="TIPO_BOLETA">
+<createdBy>niko</createdBy>
+<createdTime>2026-05-09 17:27:36 UTC</createdTime>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_boleta" id="B703FF67-A3B7-CFE0-4A85-E0460D6D4755">
+<createdBy>niko</createdBy>
+<createdTime>2026-05-09 17:27:42 UTC</createdTime>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="43277391-B97F-C340-B9FB-11B6F093E7C8">
+<createdBy>niko</createdBy>
+<createdTime>2026-05-09 17:27:53 UTC</createdTime>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_boleta" id="BE11A771-7414-84E1-962E-A4191424CE85">
+<createdBy>niko</createdBy>
+<createdTime>2026-05-09 17:28:22 UTC</createdTime>
+<generatorID>A0009393-4FB1-78DB-0872-716F43FCA14B</generatorID>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<referedAttribute>A3288BAB-EBA6-E061-6AA3-BC14C635881E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48D7A77A-9807-3B80-2998-0F8A4AEB2450" name="TIPO_BOLETA PK">
+<createdBy>niko</createdBy>
+<createdTime>2026-05-09 17:27:51 UTC</createdTime>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B703FF67-A3B7-CFE0-4A85-E0460D6D4755</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

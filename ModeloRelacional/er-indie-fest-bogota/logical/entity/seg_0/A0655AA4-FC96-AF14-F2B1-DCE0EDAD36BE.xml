@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0655AA4-FC96-AF14-F2B1-DCE0EDAD36BE" name="DETALLE_COMPRA">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:12:55 UTC</createdTime>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detalle_compra" id="A9464694-2EBD-42C4-5C04-569F93C49EEB">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:13:06 UTC</createdTime>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="FE260A66-1698-AB33-F08F-54376C63F6AB">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:13:35 UTC</createdTime>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subtotal" id="D8348E07-A68D-32F4-D10C-8417A1B2299B">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:13:50 UTC</createdTime>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_boleta" id="535CA154-8C18-D6FA-882E-FBB12EC06725">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:16:18 UTC</createdTime>
+<generatorID>18FAAC61-7CFD-D452-6698-662AAC7644D8</generatorID>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<referedAttribute>A3288BAB-EBA6-E061-6AA3-BC14C635881E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_venta" id="0C9F7320-2F54-1EBC-4A84-E59D4BCB9AF8">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:25:33 UTC</createdTime>
+<generatorID>66946AF9-5B9C-C39C-FF66-7DE3461E390D</generatorID>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<referedAttribute>96977BD1-EEF8-2911-E9F9-45FA440F0F8D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F0DEAD76-37F4-AF80-2512-22F2AFC130A7" name="DETALLE_COMPRA PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:13:19 UTC</createdTime>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9464694-2EBD-42C4-5C04-569F93C49EEB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

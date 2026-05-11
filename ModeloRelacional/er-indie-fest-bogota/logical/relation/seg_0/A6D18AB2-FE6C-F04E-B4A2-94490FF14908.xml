@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRESENTAR" directorySegmentName="seg_0" id="A6D18AB2-FE6C-F04E-B4A2-94490FF14908">
+<createdBy>niko</createdBy>
+<createdTime>2026-05-09 17:05:45 UTC</createdTime>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<sourcePk>47FC4177-7DAB-CE82-6624-8AF74AA57EE2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B7A826D6-73B1-6C23-1A64-4033DC20693E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2272C931-B124-F2E1-5369-E5E6C769A592</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
