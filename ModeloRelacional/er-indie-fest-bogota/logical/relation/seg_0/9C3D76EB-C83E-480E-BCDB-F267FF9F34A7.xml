@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HACER" directorySegmentName="seg_0" id="9C3D76EB-C83E-480E-BCDB-F267FF9F34A7">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:26:08 UTC</createdTime>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<sourcePk>178502B6-3A2E-E4AB-9A28-C07D469C2975</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>002BBA20-4C38-B896-CEA4-4E5B74764BEE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3489DB03-7673-C83E-4930-6B1FB8C000F6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCE137F3-4077-823C-6367-B04A2346A0A9" name="IMP-ESC">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:04:18 UTC</createdTime>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_implemento" id="FAEC6A6D-BB0E-24BA-1A4F-CA9880B10E18">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:04:33 UTC</createdTime>
+<generatorID>2D9769CD-C290-2279-0170-E471C3DD66E5</generatorID>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<referedAttribute>EF6646A2-3512-8C87-FB41-55CDBFFF8D59</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_escenario" id="11E517A7-4E73-90EB-B29A-0A519C8906C1">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:04:43 UTC</createdTime>
+<generatorID>694C23F6-FBD1-77C7-6608-A108919CEF4D</generatorID>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<referedAttribute>5DF102F8-7C26-BF36-574F-0432FD444723</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

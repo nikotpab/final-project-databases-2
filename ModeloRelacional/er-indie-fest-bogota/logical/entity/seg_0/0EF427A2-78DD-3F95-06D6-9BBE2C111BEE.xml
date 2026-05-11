@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0EF427A2-78DD-3F95-06D6-9BBE2C111BEE" name="ASI-PRE">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:10:37 UTC</createdTime>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_presentacion" id="7809C823-5EB9-AA79-439F-869C7C6E199D">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:10:56 UTC</createdTime>
+<generatorID>800B2772-94CE-FBDA-5603-F3A62FD828E1</generatorID>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<referedAttribute>3FFC7A73-1402-7093-C44C-0A1C6D008629</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asistente" id="CD64EB5E-CB9E-D883-86C8-C80419F42232">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:11:04 UTC</createdTime>
+<generatorID>537657C4-8FF1-C9DA-1FC4-B74242F9B2E4</generatorID>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<referedAttribute>AD680503-C3D9-F3F8-759A-6E61EA4FA45A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
