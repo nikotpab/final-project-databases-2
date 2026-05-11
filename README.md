@@ -37,6 +37,28 @@ The document-oriented engine handles unstructured, semi-structured, or high-velo
 *   Integration script for cross-engine data aggregation and reporting.
 *   Theoretical justification based on the CAP Theorem and ACID/BASE consistency models.
 
+## 🚀 Guía de Puesta en Marcha (Avance 1 - Núcleo Relacional)
+
+Para poner en funcionamiento el núcleo transaccional del festival **INDIE FEST BOGOTÁ**, siga estas instrucciones:
+
+### 📋 Prerrequisitos
+*   **PostgreSQL:** Versión 13 o superior.
+*   **Cliente SQL:** `psql`, pgAdmin 4, DBeaver o similar.
+
+### 🛠️ Pasos de Instalación
+Los scripts deben ejecutarse en el siguiente orden para garantizar la integridad referencial:
+
+1.  **Estructura:** Ejecute `ScriptEstructuraPrincipal.sql` para crear tablas, llaves y restricciones.
+2.  **Datos:** Ejecute `Inserts.sql` para cargar los datos de prueba (mínimo 30 registros por entidad).
+3.  **Lógica:** Ejecute `triggers.sql` para activar las validaciones de aforo, auditoría y control de horarios.
+4.  **Consultas:** Utilice `Consultas.sql` para ejecutar los reportes de ingresos y ocupación.
+
+### 📦 Entregables Avance 1
+*   **Modelo ER & Relacional:** Disponibles en la carpeta `/er` y `/ModeloRelacional` (archivos `.dmd`).
+*   **Diagrama PDF:** `DiagramaERNormalizado.drawio.pdf`.
+*   **Triggers:** Implementados para validación de aforo, auditoría y prevención de solapamiento.
+*   **Consultas:** Reportes significativos con JOINs y agregaciones.
+
 ## Development Team
 *   Nicolas Barbosa Gualteros
 *   Anderson Oswaldo Gamba Cubillos
