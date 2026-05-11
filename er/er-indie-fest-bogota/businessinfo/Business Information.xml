@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="834E31F7-6FD5-AA1C-962A-B094C133045D">
-<createdBy>niko</createdBy>
-<createdTime>2026-05-09 15:11:53 UTC</createdTime>
-<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>
