@@ -64,20 +64,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_artista" id="3140D9D5-B573-35D2-8DDA-CAA61DF6F26A">
-<createdBy>niko</createdBy>
-<createdTime>2026-05-09 17:06:05 UTC</createdTime>
-<generatorID>82CCF4C4-9AAC-C53C-97C5-1A0D63157B48</generatorID>
-<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
-<engineerTo>
-<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
-</engineerTo>
-<referedAttribute>7E65C49C-8BA0-630D-A740-5720A23C8EA8</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="monto" id="9F3743EE-B92D-118C-A8D8-E7EFB9EC5C39">
 <createdBy>niko</createdBy>
 <createdTime>2026-05-09 17:26:06 UTC</createdTime>
@@ -88,6 +74,20 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_artista" id="F8C3C22B-3162-232A-F7CD-56AB88B5E8F0">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-10 23:59:41 UTC</createdTime>
+<generatorID>0A40BDD4-3E8C-1130-2E84-8E1926904081</generatorID>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<referedAttribute>7E65C49C-8BA0-630D-A740-5720A23C8EA8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

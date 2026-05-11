@@ -53,6 +53,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_presentacion" id="6E2833F5-4BC0-63DE-C41C-5E7112A86F2B">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:12:32 UTC</createdTime>
+<generatorID>4CA5F6D6-966B-E03F-1391-210241AEFF8C</generatorID>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<referedAttribute>3FFC7A73-1402-7093-C44C-0A1C6D008629</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="CB881906-B53C-EDD9-0F22-ED0C3966C81A" name="BOLETA PK">

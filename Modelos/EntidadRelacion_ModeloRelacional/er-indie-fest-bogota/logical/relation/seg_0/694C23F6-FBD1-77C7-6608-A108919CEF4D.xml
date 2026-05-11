@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TENERv4" directorySegmentName="seg_0" id="694C23F6-FBD1-77C7-6608-A108919CEF4D">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-11 00:04:43 UTC</createdTime>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<sourcePk>2E5F34F6-E380-B3D6-DA2C-C6EE51CD0A69</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2272C931-B124-F2E1-5369-E5E6C769A592</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FCE137F3-4077-823C-6367-B04A2346A0A9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

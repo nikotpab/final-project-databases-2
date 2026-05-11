@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3489DB03-7673-C83E-4930-6B1FB8C000F6" name="COMPRA">
-<createdBy>niko</createdBy>
-<createdTime>2026-05-09 16:58:14 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF0F5B66-D063-4F61-A21A-671B77BE038C" name="INTEGRANTE">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-10 23:57:34 UTC</createdTime>
 <ownerDesignName>er-indie-fest-bogota</ownerDesignName>
 <engineerTo>
 <item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_venta" id="96977BD1-EEF8-2911-E9F9-45FA440F0F8D">
-<createdBy>niko</createdBy>
-<createdTime>2026-05-09 16:58:28 UTC</createdTime>
+<Attribute name="id_integrante" id="C633F7A4-49AA-AC6C-28C6-238F14CBFF1D">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-10 23:57:47 UTC</createdTime>
 <ownerDesignName>er-indie-fest-bogota</ownerDesignName>
 <engineerTo>
 <item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
@@ -27,39 +27,28 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="precio" id="D251C1EC-EFBF-707A-4799-8E7D8C1FE76F">
-<createdBy>niko</createdBy>
-<createdTime>2026-05-09 16:59:10 UTC</createdTime>
-<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
-<engineerTo>
-<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT018</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fecha" id="EA10CE23-F0EE-1B0B-CEF0-F82E7070C94A">
-<createdBy>niko</createdBy>
-<createdTime>2026-05-09 16:59:35 UTC</createdTime>
-<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
-<engineerTo>
-<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_asistente" id="7A339D54-DA5E-3C89-DA55-457A29CB4E93">
+<Attribute name="nombre_integrante" id="D9A62212-2E78-BBE5-8CBF-405DB9C590D9">
 <createdBy>Anderson</createdBy>
-<createdTime>2026-05-11 00:26:08 UTC</createdTime>
-<generatorID>9C3D76EB-C83E-480E-BCDB-F267FF9F34A7</generatorID>
+<createdTime>2026-05-10 23:57:58 UTC</createdTime>
 <ownerDesignName>er-indie-fest-bogota</ownerDesignName>
 <engineerTo>
 <item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
 </engineerTo>
-<referedAttribute>AD680503-C3D9-F3F8-759A-6E61EA4FA45A</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_artista" id="41902DD1-D2FA-697F-E9CC-0BF5CE05596E">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-10 23:59:10 UTC</createdTime>
+<generatorID>5232BFF8-AF78-481D-D937-C45E028343F4</generatorID>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<referedAttribute>7E65C49C-8BA0-630D-A740-5720A23C8EA8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -67,16 +56,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9014CAD6-056D-E98A-9F50-9E5EC08F6B3F" name="VENTA PK">
-<createdBy>niko</createdBy>
-<createdTime>2026-05-09 16:58:40 UTC</createdTime>
+<identifier id="EA426752-D3B8-1A10-2637-ADC0C97648BC" name="INTEGRANTE PK">
+<createdBy>Anderson</createdBy>
+<createdTime>2026-05-10 23:57:56 UTC</createdTime>
 <ownerDesignName>er-indie-fest-bogota</ownerDesignName>
 <engineerTo>
 <item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>96977BD1-EEF8-2911-E9F9-45FA440F0F8D</attributeRef>
+<attributeRef>C633F7A4-49AA-AC6C-28C6-238F14CBFF1D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
