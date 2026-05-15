@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0BDF4D0-ACDE-2843-72BF-6A1608EC33C1" name="STAFF">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>29C5E2B6-5841-0632-870C-05C94CAB1FAE</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_staff" id="DC4E9076-B635-2A36-4DC3-1E699E2920BF">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>0BCF3DBB-935B-E913-70C3-7CBE1E6E68BB</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E9D3A42D-BB38-9448-8196-E667FF412604">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>E5850215-C3AB-6D9C-3A36-E0DD3A416272</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inicio_turno" id="66F7F3E6-7178-2505-9808-D06AD9C0EE04">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>7F90AA06-AB88-B968-ED79-A701E1384290</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fin_turno" id="D16797ED-B533-A5BD-369B-0CA4C3A367BE">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>FDD76EC0-141B-DE70-3A8F-C27D682E4090</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESCENARIO_id_escenario" id="1DCFAC4D-8339-4A76-44CB-9519CC4389B4">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>CDB4C773-5591-0E39-E6C6-2E15BEA44E05</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE0320EB-D006-D817-26D5-847EF34EF15D" referredColumn="A533EEA9-5440-2927-CF25-C4B8EE96B676"/>
+</associations>
+</Column>
+<Column name="ROL_id_rol" id="F184D413-F917-A5A4-9470-B18237FA8F34">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>9510595B-7BC2-8FAB-A57B-4E5C71BCF7AF</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F3C9D37-62DF-B2E7-00E8-67FA40ED7D9A" referredColumn="256AB853-016F-302C-DD37-5AE7B7F29776"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3FA7B10C-D401-419D-54BB-50EBE5F5A71D" name="STAFF_PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>4574E9B6-958C-2E7E-5510-A0D415117E92</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC4E9076-B635-2A36-4DC3-1E699E2920BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02EADB18-FB16-3B9C-8747-DBDF35844279" name="STAFF_ESCENARIO_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>53827DD7-E81B-8B64-22FB-E51A74A91071</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DCFAC4D-8339-4A76-44CB-9519CC4389B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D2B3DB5-0140-89EA-5EB0-9B10C5125C1D" name="STAFF_ROL_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>60D2D8E1-8374-5E62-E490-271C2165E8E4</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F184D413-F917-A5A4-9470-B18237FA8F34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

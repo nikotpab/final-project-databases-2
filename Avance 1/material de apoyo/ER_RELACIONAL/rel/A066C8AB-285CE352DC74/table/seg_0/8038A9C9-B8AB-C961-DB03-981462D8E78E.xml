@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8038A9C9-B8AB-C961-DB03-981462D8E78E" name="INTEGRANTE">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>408BAE5C-BDAA-24DF-8816-E0133B727D60</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_integrante" id="ADA0767B-676E-EF05-084F-E0576D04D111">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>2AE53BAA-6597-FBB1-440F-FE9FAB97AF36</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_integrante" id="023A93D3-E53D-F621-681E-680F1663213E">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>020FAA79-A204-8CBC-FE58-DE0E039E3955</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARTISTA_id_artista" id="41038B45-34B6-D8AD-4A50-991677150C53">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>1129E631-DA89-FCF3-E582-3FFB8DB29DEB</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FEF2F51-0DBA-08FD-2EB6-027635F1BE10" referredColumn="EC504FA3-5C87-2A71-5709-FF69BDA21584"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C96ECBE-9052-847B-1037-65B3C934BB37" name="INTEGRANTE_PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>FCD632C7-B289-DCC2-5259-D9052D0A1749</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADA0767B-676E-EF05-084F-E0576D04D111"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DA6F454-B425-853F-EED1-51AC937B0A50" name="INTEGRANTE_ARTISTA_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>8B79EF50-D38D-CB69-B2FB-A6F2AFFAFB9F</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41038B45-34B6-D8AD-4A50-991677150C53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

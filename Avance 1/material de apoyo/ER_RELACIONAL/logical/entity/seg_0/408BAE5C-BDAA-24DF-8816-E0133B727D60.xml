@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="408BAE5C-BDAA-24DF-8816-E0133B727D60" name="INTEGRANTE">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 01:22:04 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_integrante" id="2AE53BAA-6597-FBB1-440F-FE9FAB97AF36">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 01:29:29 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_integrante" id="020FAA79-A204-8CBC-FE58-DE0E039E3955">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 01:29:42 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_artista" id="1129E631-DA89-FCF3-E582-3FFB8DB29DEB">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 01:31:52 UTC</createdTime>
+<generatorID>8B79EF50-D38D-CB69-B2FB-A6F2AFFAFB9F</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<referedAttribute>7E65C49C-8BA0-630D-A740-5720A23C8EA8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FCD632C7-B289-DCC2-5259-D9052D0A1749" name="INTEGRANTE PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 01:29:37 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2AE53BAA-6597-FBB1-440F-FE9FAB97AF36</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

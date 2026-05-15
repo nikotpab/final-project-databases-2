@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DA613D9-5982-1222-982A-676AF1143FD0" name="ROL">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:41:16 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_rol" id="157204E2-9DCE-727F-EE16-41933161D8CE">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:50:49 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_rol" id="BF3BAABA-5BB0-A3C0-71BB-EC1935BDDB29">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:51:03 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B124450C-85C2-6FE0-EA9C-EE2F260EB8A1" name="ROL PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:51:03 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>157204E2-9DCE-727F-EE16-41933161D8CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

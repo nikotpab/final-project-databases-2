@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="43F8DBA8-A1A1-B457-53FB-0AE8FD54834D" containerWithKeyObject="AF6C03E9-B1BB-1D42-B890-0B71D5FA8E0B" localFKIndex="1B6EAF30-B107-A290-86E4-202F186098EA" name="BOLETA_TIPO_BOLETA_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>0F1B8BCB-C456-4800-DB76-F8AFF53FE538</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<referredTableLongName>TIPO_BOLETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4C41B4FE-B636-9F97-9C81-FC4D2CA30394</referredTableID>
+<keyObject>D7287DA8-29EF-0640-0776-62367D701D28</keyObject>
+<referredKeyID>D7287DA8-29EF-0640-0776-62367D701D28</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_boleta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

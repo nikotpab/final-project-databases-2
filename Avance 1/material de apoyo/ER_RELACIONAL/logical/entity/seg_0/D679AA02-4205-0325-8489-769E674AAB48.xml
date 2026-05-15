@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D679AA02-4205-0325-8489-769E674AAB48" name="COMPRA">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:41:04 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_boleta" id="5CE6AB71-3BC9-F1B3-5D43-02693E47E818">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:45:20 UTC</createdTime>
+<generatorID>6D96CFE3-6EDE-9C1B-9454-6E99F46A33A5</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<referedAttribute>A3288BAB-EBA6-E061-6AA3-BC14C635881E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asistente" id="A78EF58F-F8CE-E5ED-3A61-D29D0B445C19">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:45:44 UTC</createdTime>
+<generatorID>F78B5D8E-1725-CBC2-47B8-3E100AD19C34</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<referedAttribute>AD680503-C3D9-F3F8-759A-6E61EA4FA45A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_compra" id="7A25ADB4-FEA7-3D85-FCB8-047A1CAAAE62">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:51:59 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="2C144103-F6CD-61F5-72F0-5EAAF052C4C5">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:52:11 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="CF98B9BD-4E36-375B-DA1F-103536F38CE2">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:52:19 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_metodo_pago" id="E70C0E26-67FF-5663-CD68-5BC91AB4138A">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:53:29 UTC</createdTime>
+<generatorID>1358A79D-B4F4-278F-2A57-2EE4083FE902</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<referedAttribute>41AB46DA-0CEC-7F9E-56A0-BAED0D28C46D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B73D5353-49EE-FFA1-B7E5-863EAA401BE1" name="COMPRA PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:52:09 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7A25ADB4-FEA7-3D85-FCB8-047A1CAAAE62</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

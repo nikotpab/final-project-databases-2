@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C3746D4C-FA9B-CE66-571E-1046EB37536A" containerWithKeyObject="861D5606-7595-9A62-DCE3-083D0DCD7411" localFKIndex="BA5F5DF2-C343-13EA-8B91-F6BF1B6A3966" name="PRESENTACION_ESCENARIO_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>A283DE32-5A60-E6E9-F42F-51E6782C241C</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<referredTableLongName>ESCENARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2FFF3532-BFD7-A1E6-F85B-A9A030A22BC2</referredTableID>
+<keyObject>952230B7-4E2A-0F51-80A2-F0EF0EBD525E</keyObject>
+<referredKeyID>952230B7-4E2A-0F51-80A2-F0EF0EBD525E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_escenario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

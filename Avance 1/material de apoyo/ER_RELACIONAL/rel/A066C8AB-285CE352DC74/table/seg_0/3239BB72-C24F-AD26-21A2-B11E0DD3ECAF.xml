@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3239BB72-C24F-AD26-21A2-B11E0DD3ECAF" name="CONTRATO">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>66AA267A-26DF-19EE-46C8-3E1A4BA57E90</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contrato" id="00AF6288-D659-9692-C3F7-29BAFD83134A">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>475C66EA-EAA3-DEDA-89DB-C4597978D6BA</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clausula" id="E6421099-66AA-5A01-3E4E-1F7A08C5EB77">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>AADF647D-427B-DC74-0C0E-764661FFF110</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_firma" id="DB53B315-E3B9-0C4C-BE79-C2BFEFC71F70">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>94D8BBE3-5E1B-31A7-480C-D30CAFD90361</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vigencia" id="DCB475A9-C5BA-C6F4-E4D6-67CE9C5F1210">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>FD03B451-CC67-83C8-89C6-2B17F0689E28</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARTISTA_id_artista" id="D7D0B9EE-7ED8-8336-966F-2703DC27447B">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>3140D9D5-B573-35D2-8DDA-CAA61DF6F26A</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6013333-D777-2822-9002-9FE438F5A122" referredColumn="EC504FA3-5C87-2A71-5709-FF69BDA21584"/>
+</associations>
+</Column>
+<Column name="monto" id="14EE62B4-E6DD-BAF1-7E02-60D5FBFF7307">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>9F3743EE-B92D-118C-A8D8-E7EFB9EC5C39</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A75C9842-6588-52F3-877B-4AFE1A3FC675" name="CONTRATO_PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>87CC265D-F856-0B35-E125-9F9317D837F4</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00AF6288-D659-9692-C3F7-29BAFD83134A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50D01B91-5FE5-7B01-DC83-4FCE7689785F" name="CONTRATO__IDX">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>82CCF4C4-9AAC-C53C-97C5-1A0D63157B48</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D7D0B9EE-7ED8-8336-966F-2703DC27447B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C0C82CC-D38D-1270-F9AE-E30055ADE9C1" name="CONTRATO_ARTISTA_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>82CCF4C4-9AAC-C53C-97C5-1A0D63157B48</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7D0B9EE-7ED8-8336-966F-2703DC27447B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tenerv1" directorySegmentName="seg_0" id="0A9BCCF6-FD0E-CBF5-6F69-B68990D314F0">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 01:33:44 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B7A826D6-73B1-6C23-1A64-4033DC20693E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A16EF0A4-4977-82D1-9529-F171508478D3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

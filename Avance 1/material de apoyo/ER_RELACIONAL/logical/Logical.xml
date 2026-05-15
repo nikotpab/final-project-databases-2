@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="08AA7A53-64E8-CCD6-A3DC-2FC26EA90BC3" mainViewID="4B9BAB51-B128-3D4C-21A9-5731F9D214A6">
+<createdBy>niko</createdBy>
+<createdTime>2026-05-09 15:11:53 UTC</createdTime>
+<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E12E0D21-0D52-FB26-10BD-F97DB417AF93" name="COMPRA">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>D679AA02-4205-0325-8489-769E674AAB48</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BOLETA_id_boleta" id="FBD0D94A-71F4-E248-95AC-8C9F4FD4F7D7">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>5CE6AB71-3BC9-F1B3-5D43-02693E47E818</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2273E52-765E-4E49-A7B3-CAB2738D9A1E" referredColumn="46ADCC64-6DF1-523F-D713-EFDD75A9E5C5"/>
+</associations>
+</Column>
+<Column name="ASISTENTE_id_asistente" id="D09F00E7-19AE-4691-B403-1E8F13E3397F">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>A78EF58F-F8CE-E5ED-3A61-D29D0B445C19</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED251650-F856-E7C9-5EA8-8476AA8C3B4C" referredColumn="47811BAD-81F1-DBE7-68E6-AE75EAA2652C"/>
+</associations>
+</Column>
+<Column name="id_compra" id="5F2A64DB-AA5E-830B-23F6-6820472A68E5">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>7A25ADB4-FEA7-3D85-FCB8-047A1CAAAE62</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="87913342-1755-73C1-4B2B-8EC386F34A6E">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>2C144103-F6CD-61F5-72F0-5EAAF052C4C5</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="937EABC0-F2B6-8694-B97F-D4BE5A18A8EA">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>CF98B9BD-4E36-375B-DA1F-103536F38CE2</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METODO_PAGO_id_metodo_pago" id="3D92161B-2869-65CD-B590-B530185CAD4F">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>E70C0E26-67FF-5663-CD68-5BC91AB4138A</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA1E83DA-3BE5-B4EA-A07C-82671BAF508E" referredColumn="B7BE0234-5CE2-3357-2BED-E2A7C0A21D34"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9ED5D1CB-0861-5D5B-081B-115984A8EE4C" name="COMPRA_PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>B73D5353-49EE-FFA1-B7E5-863EAA401BE1</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F2A64DB-AA5E-830B-23F6-6820472A68E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA731D65-3575-8615-04DD-7EA3DB8AD6D4" name="COMPRA__IDX">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6D96CFE3-6EDE-9C1B-9454-6E99F46A33A5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FBD0D94A-71F4-E248-95AC-8C9F4FD4F7D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1CB128C-BACE-26C5-B41E-A7A4443B0EE8" name="COMPRA_BOLETA_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>6D96CFE3-6EDE-9C1B-9454-6E99F46A33A5</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBD0D94A-71F4-E248-95AC-8C9F4FD4F7D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B8C54D4-EA9E-C74A-4D4A-72A76E3BDB4B" name="COMPRA_ASISTENTE_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>F78B5D8E-1725-CBC2-47B8-3E100AD19C34</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D09F00E7-19AE-4691-B403-1E8F13E3397F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9DECE89-31BE-346F-3471-493FBF2CB655" name="COMPRA_METODO_PAGO_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>1358A79D-B4F4-278F-2A57-2EE4083FE902</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D92161B-2869-65CD-B590-B530185CAD4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

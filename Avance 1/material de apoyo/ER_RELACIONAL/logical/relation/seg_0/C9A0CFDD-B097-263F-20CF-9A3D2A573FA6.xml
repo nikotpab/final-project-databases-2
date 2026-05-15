@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REALIZARv2" directorySegmentName="seg_0" id="C9A0CFDD-B097-263F-20CF-9A3D2A573FA6">
+<createdBy>niko</createdBy>
+<createdTime>2026-05-09 17:17:11 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="A066C8AB-8CCF-30C4-9095-285CE352DC74" value="true"/>
+</engineerTo>
+<sourcePk>47FC4177-7DAB-CE82-6624-8AF74AA57EE2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B7A826D6-73B1-6C23-1A64-4033DC20693E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2B5C7093-F5CD-49C9-4B17-BE93EE8137BF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

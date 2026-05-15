@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2112A3A1-DA11-7923-7903-6089E9C2F1B2" name="ART_GEN">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<ordsAlias>tenerv1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ARTISTA_id_artista" id="B870C24E-4C1E-4F3D-65FA-946D5E2CC989">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC678D7A-0057-C74D-4F86-D505ED0AAAEC" referredColumn="EC504FA3-5C87-2A71-5709-FF69BDA21584"/>
+</associations>
+</Column>
+<Column name="GENERO_id_genero" id="34A240CD-779D-4DB6-2249-2FC10CA3A798">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2B28E69-2EC4-8A17-043F-E2BDD23ACE2B" referredColumn="B0A5AC8D-F0D3-CCBC-40FE-F8066B95E917"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18600F33-892A-D4A6-68FF-4AF787B38841" name="Tenerv1_PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B870C24E-4C1E-4F3D-65FA-946D5E2CC989"/>
+<colUsage columnID="34A240CD-779D-4DB6-2249-2FC10CA3A798"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3081176-B37F-C3F1-0CC3-3F83BE8D6964" name="Tenerv1_ARTISTA_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>0A9BCCF6-FD0E-CBF5-6F69-B68990D314F0</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B870C24E-4C1E-4F3D-65FA-946D5E2CC989"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="225995A9-F249-5CEF-E280-41DEE03995FB" name="Tenerv1_GENERO_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>0A9BCCF6-FD0E-CBF5-6F69-B68990D314F0</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34A240CD-779D-4DB6-2249-2FC10CA3A798"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

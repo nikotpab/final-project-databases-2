@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF6C03E9-B1BB-1D42-B890-0B71D5FA8E0B" name="BOLETA">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>4ADE2F7A-4C2E-9B7A-51E3-1311F4D1506B</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_boleta" id="46ADCC64-6DF1-523F-D713-EFDD75A9E5C5">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>A3288BAB-EBA6-E061-6AA3-BC14C635881E</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="FA1F7854-00B0-51DC-6FE2-E27F25D41B0C">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>2D600ED2-52CF-5466-E645-C3AC619C336D</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESCENARIO_id_escenario" id="0A72315F-D017-8A2A-58E1-E63283C19AA6">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>5092538E-C6E2-4180-AAAE-39FF22BC64B3</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A2DEDA4-1B6E-D48C-9998-848EE670072F" referredColumn="A533EEA9-5440-2927-CF25-C4B8EE96B676"/>
+</associations>
+</Column>
+<Column name="TIPO_BOLETA_id_tipo_boleta" id="D7741EFF-AFB3-0E1A-3253-374EA99507DC">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>3141A2E8-3273-750E-0415-4B2E555B05AA</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43F8DBA8-A1A1-B457-53FB-0AE8FD54834D" referredColumn="A9E76982-4771-A5DE-85DE-584515494BF0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C2C0BE0-861C-633D-194A-791765FAF553" name="BOLETA_PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>CB881906-B53C-EDD9-0F22-ED0C3966C81A</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46ADCC64-6DF1-523F-D713-EFDD75A9E5C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F572BD78-11DF-4E61-AB67-E3FA07837279" name="BOLETA_ESCENARIO_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>F9320E26-C6C3-FB66-84DB-FC0BDB939934</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A72315F-D017-8A2A-58E1-E63283C19AA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B6EAF30-B107-A290-86E4-202F186098EA" name="BOLETA_TIPO_BOLETA_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>0F1B8BCB-C456-4800-DB76-F8AFF53FE538</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7741EFF-AFB3-0E1A-3253-374EA99507DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

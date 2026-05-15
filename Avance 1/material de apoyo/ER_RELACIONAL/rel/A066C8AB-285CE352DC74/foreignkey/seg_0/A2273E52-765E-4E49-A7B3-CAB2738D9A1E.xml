@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A2273E52-765E-4E49-A7B3-CAB2738D9A1E" containerWithKeyObject="E12E0D21-0D52-FB26-10BD-F97DB417AF93" localFKIndex="A1CB128C-BACE-26C5-B41E-A7A4443B0EE8" name="COMPRA_BOLETA_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-05-15 02:54:42 UTC</createdTime>
+<generatorID>6D96CFE3-6EDE-9C1B-9454-6E99F46A33A5</generatorID>
+<ownerDesignName>ER_RELACIONAL</ownerDesignName>
+<referredTableLongName>BOLETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF6C03E9-B1BB-1D42-B890-0B71D5FA8E0B</referredTableID>
+<keyObject>8C2C0BE0-861C-633D-194A-791765FAF553</keyObject>
+<referredKeyID>8C2C0BE0-861C-633D-194A-791765FAF553</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_boleta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
