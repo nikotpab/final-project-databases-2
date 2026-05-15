@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="er-indie-fest-bogota" id="6FE99FF2-5840-B03D-040F-1A66BF7768EA" version="3.5">
-<createdBy>niko</createdBy>
-<createdTime>2026-05-09 15:11:53 UTC</createdTime>
-<ownerDesignName>er-indie-fest-bogota</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>6FE99FF2-5840-B03D-040F-1A66BF7768EA</designId>
-</OSDM_Design>
